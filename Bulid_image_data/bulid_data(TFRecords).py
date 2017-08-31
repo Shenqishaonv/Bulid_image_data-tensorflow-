@@ -111,7 +111,7 @@ def convert_to_tfrecord(images, labels, save_dir, name):
     
     #images = np.array(images)
     #import pdb; pdb.set_trace()
-    if np.shape(images)[0] != n_samples:#如果image的个数与标签的个数不一致 返回错误
+    if np.shape(images)[0] != n_samples:
         raise ValueError('Images size %d does not match label size %d.' %(images.shape[0], n_samples))
     
     
@@ -148,7 +148,7 @@ def read_and_decode(tfrecords_file, batch_size):
         image: 4D tensor - [batch_size, width, height, channel]
         label: 1D tensor - [batch_size]
     '''
-    # make an input queue from the tfrecord file 使用函数做一个file queue
+    # make an input queue from the tfrecord file 
     filename_queue = tf.train.string_input_producer([tfrecords_file])
     
     reader = tf.TFRecordReader()
