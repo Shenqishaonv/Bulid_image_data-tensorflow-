@@ -10,4 +10,4 @@ Run data_download.py<br>
 ![step2](https://github.com/Shenqishaonv/Bulid_image_data-tensorflow-/blob/master/Bulid_image_data/step2.png?raw=true)
 
 * TFRecords<br>
-Run Bulid_data(TFRecords).py
+Run bulid_data(TFRecords).py
