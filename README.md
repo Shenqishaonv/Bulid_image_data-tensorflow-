@@ -1,8 +1,7 @@
 # Bulid image data in TensorFlow
 cifar-10-python.tar.gz --->image--->TFRecords 
 
-* The cifar-10-python.tar.gz 
-
+* The cifar-10-python.tar.gz<br> 
 link: [cifar-10-python][https://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz]
 ![step1](https://github.com/Shenqishaonv/Bulid_image_data-tensorflow-/blob/master/Bulid_image_data/step1.png?raw=true)
 
